@@ -141,7 +141,7 @@ void  Init_ANMG08(void)
    Wire.endTransmission(); //
 	
 /* Change if arrected by low frequency noise. 
-   Wire.beginTransmission(ATIF08_ID);// 
+   Wire.beginTransmission(ANMG08_ID);// 
    Wire.write(byte(0x35)); // address
    Wire.write(byte(0x40)); // data
    Wire.endTransmission(); //   
