@@ -42,7 +42,7 @@
 
 #define Output  0x2A //Touch Output Data Register 
 
-#define ANMG08_ID  0x24 //0x48<<1 (7bit=0x24, 8bit=0x48)
+#define ANMG08_ID  0x24 //0x48>>1 (7bit=0x24, 8bit=0x48)
 
 void  Init_ANMG08(void); //Initialize ANMG08
 
